@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Calculadora incrível</title>
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="calculator container">
+		<div class="row text-center justify-content-center">
+			<div class="col-12"> 
+				<input type="number" id="elem-1">
+			</div>
+			<div class="col-12">
+				<div class="container operations">
+					<div class="row align-items-center text-center">
+						<div class="col operation">
+							<input type="radio" id="oper-1" name="operation" value="+" checked> 
+							<label for="oper-1">+</label>
+						</div>
+						<div class="col operation">
+							<input type="radio" id="oper-2" name="operation" value="-">
+							<label for="oper-2">-</label>
+						</div>
+						<div class="col operation">
+							<input type="radio" id="oper-3" name="operation" value="*">
+							<label for="oper-3">&times;</label>
+						</div>
+						<div class="col operation">
+							<input type="radio" id="oper-4" name="operation" value="/">
+							<label for="oper-4">&divide;</label>
+						</div>
+						<div class="col operation">
+							<input type="radio" id="oper-5" name="operation" value="**">
+							<label for="oper-5">^</label>
+						</div>
+						<div class="col operation">
+							<input type="radio" id="oper-6" name="operation" value="%">
+							<label for="oper-6">%</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<input type="number" id="elem-2">
+			</div>
+			<div class="col-12">
+				<button id="calculate-button">=</button>
+			</div>
+			<div class="col-12">
+				<h2 id="result"></h2>
+			</div>
+		</div>
+	</div>
+	
+	<!--script-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
